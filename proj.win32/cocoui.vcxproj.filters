@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\commonui">
+      <UniqueIdentifier>{0c2a9670-1f44-4ec0-b67e-4daca6b5939b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\commontype">
+      <UniqueIdentifier>{fa97ff0b-5eea-4499-a42d-b18b59d0f9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\commonapi">
+      <UniqueIdentifier>{e99ec218-5416-450d-80f0-808a0da0d3a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StartScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\public.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commontype\BOYAudioEngine.cpp">
+      <Filter>src\commontype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commontype\VisibleRect.cpp">
+      <Filter>src\commontype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonui\RockManager.cpp">
+      <Filter>src\commonui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StartScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\public.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commontype\BOYAudioEngine.h">
+      <Filter>src\commontype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commontype\VisibleRect.h">
+      <Filter>src\commontype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonui\RockManager.h">
+      <Filter>src\commonui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
